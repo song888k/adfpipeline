@@ -1,6 +1,24 @@
 {
 	"name": "pipeline1",
 	"properties": {
+		"activities": [
+			{
+				"name": "Filter1",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "a",
+						"type": "Expression"
+					},
+					"condition": {
+						"value": "1",
+						"type": "Expression"
+					}
+				}
+			}
+		],
 		"annotations": []
 	}
 }
